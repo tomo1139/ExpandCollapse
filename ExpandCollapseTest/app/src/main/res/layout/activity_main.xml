@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="develop.beta1139.expandcollapsetest.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView android:id="@+id/text0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hello World! 0" />
+        <TextView android:id="@+id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hello World! 1" />
+        <TextView android:id="@+id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hello World! 2" />
+        <TextView android:id="@+id/text3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hello World! 3" />
+        <TextView android:id="@+id/text4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hello World! 4" />
+        <TextView android:id="@+id/text5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hello World! 5" />
+        <TextView android:id="@+id/text6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hello World! 6" />
+        <TextView android:id="@+id/text7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hello World! 7" />
+        <TextView android:id="@+id/text8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hello World! 8" />
+        <TextView android:id="@+id/text9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hello World! 9" />
+
+    </LinearLayout>
+
+    <Button android:id="@+id/expand" android:text="Expand" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:id="@+id/collapse" android:text="Collapse" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+</LinearLayout>
